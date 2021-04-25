@@ -1,0 +1,11 @@
+pom\inetbaking\utilities\Reporting.class
+pom\inetbaking\utilities\DatasheetUtil.class
+pom\inetbaking\testcases\BaseClass.class
+pom\inetbaking\testcases\TestCaseforDDT.class
+pom\inetbaking\pageobject\LoginPage.class
+pom\inetbaking\pageobject\UploadFile.class
+pom\inetbaking\testcases\TC_CreateCustomer_002.class
+pom\inetbaking\testcases\TC_UploadFile_003.class
+pom\inetbaking\pageobject\CustomerPage.class
+pom\inetbaking\testcases\TC_Login_001.class
+pom\inetbaking\utilities\ReadConfig.class
