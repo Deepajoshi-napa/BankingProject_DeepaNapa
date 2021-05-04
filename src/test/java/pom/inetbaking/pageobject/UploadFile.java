@@ -36,11 +36,11 @@ WebDriver lcdriver;
 		@FindBy(xpath ="/html/body/form/div/ul/li[4]/div/input")
 		WebElement uploadbutton;
 		
-		@FindBy(xpath ="/form[@name='form_72320244964454']/div[@role='main']/ul/li[6]/div[@class='form-input-wide']//button[@type='submit']")
+		@FindBy(id ="input_2")
 		
 		WebElement submit;
 	
-@FindBy(id ="input_6")
+@FindBy(xpath ="//*[@id=\"input_6\"]")
 		
 		WebElement tutorcomments;
 		
@@ -68,7 +68,10 @@ WebDriver lcdriver;
 		
 		public void entercomments(String tcomments)
 		{
-			tutorname.sendKeys(tcomments);
+			
+			
+			tutorcomments.sendKeys(tcomments);
+
 		}
 		
 		public void entertemail(String cemail)
@@ -80,8 +83,8 @@ WebDriver lcdriver;
 		
 		public void clickonupload()
 		{
-			uploadbutton.click();
-			uploadbutton.sendKeys("enter here");
+			//uploadbutton.click();
+			uploadbutton.sendKeys("C:\\deepafolder\\pet.txt");
 		}
 		
 		public void getjob()
@@ -91,5 +94,8 @@ WebDriver lcdriver;
 		public void clickonsubmit()
 		{
 			submit.click();
+			
 		}
+
+		
 }

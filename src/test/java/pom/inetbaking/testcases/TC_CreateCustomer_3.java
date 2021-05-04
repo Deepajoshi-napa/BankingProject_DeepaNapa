@@ -1,6 +1,5 @@
 package pom.inetbaking.testcases;
 
-import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -9,31 +8,17 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pom.inetbaking.pageobject.CustomerPage;
-import pom.inetbaking.pageobject.LoginPage;
 
-public class TC_CreateCustomer_002 extends BaseClass {
+public class TC_CreateCustomer_3 extends BaseClass {
 
 	@Test
-	public void Custlogin() throws IOException {
+	public void Custlogin() throws Exception {
 
-		CustomerPage custpg = new CustomerPage(driver);
-			logger.info("Home Page opened");
-			LoginPage loginpg = new LoginPage(driver);
-
-			
-			loginpg.keyinUsername(Username);
-			
-			logger.info("Username Entered");
-			loginpg.keyinpass(password);
-			
-			logger.info("Password Entered");
-			loginpg.loginbutton();
-			logger.info("Login button clicked");
-			
-			
-			//driver.switchTo().alert().accept();
-			driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-
+		
+		
+		TC_Login_001 login =new TC_Login_001();
+	login.LoginTest001();
+	CustomerPage custpg = new CustomerPage(driver);
 		custpg.newcust();
 
 			logger.info("Creating new customer");

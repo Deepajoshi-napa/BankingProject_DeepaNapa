@@ -25,8 +25,6 @@ public class Reporting extends TestListenerAdapter
 	public ExtentSparkReporter htmlReporter;
 	public ExtentReports extent;
 	public ExtentTest logger;
-	
-		
 	public void onStart(ITestContext testContext)
 	{
 
@@ -67,7 +65,7 @@ public class Reporting extends TestListenerAdapter
 		
 		String screenshotPath=System.getProperty("user.dir")+"\\Screenshots\\"+tr.getName()+".png";
 		
-		//String screenshotPath = ExtentReportsClass.getScreenshot(driver, result.getName());
+		//String screenshotPath1 = ExtentReports.getScreenshot(driver, result.getName());
 		System.out.println("Screenshot is attached to the reprot");
 		System.out.println(screenshotPath);
 		File f = new File(screenshotPath); 

@@ -12,6 +12,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -42,18 +43,18 @@ ReadConfig rdconfig =new ReadConfig();
 		
 		PropertyConfigurator.configure("log4j.properties");
 	System.setProperty("webdriver.chrome.driver", rdconfig.readchromepath());
-	/*
-	 * ChromeOptions options = new ChromeOptions();
-	 * options.addArguments("--disable-popup-blocking");
-	 * options.addArguments("--ignore-certificate-errors");
-	 * options.addArguments("--disable-translate");
-	 * options.addArguments("--user-data-dir=C:\\Temp\\chrome-dev-app2");
-	 * options.addArguments("--start-maximised");
-	 * options.addArguments("--window-size=1920,1080");
-	 * options.addArguments("--allow-insecure-localhost");
-	 */
+	
+	  ChromeOptions options = new ChromeOptions();
+	 // options.addArguments("--disable-popup-blocking");
+	  //options.addArguments("--ignore-certificate-errors");
+	  options.addArguments("--disable-translate");
+	  options.addArguments("--user-data-dir=C:\\Temp\\chrome-dev-app2");
+	  options.addArguments("--start-maximised");
+	  options.addArguments("--window-size=1920,1080");
+	  options.addArguments("--allow-insecure-localhost");
+	 
 
-	driver =new ChromeDriver();
+	driver =new ChromeDriver(options);
 	
 	logger.info("Chrome is opened");
 	
@@ -71,13 +72,18 @@ ReadConfig rdconfig =new ReadConfig();
 	 
 	 
 	
-	public void captureScreen(WebDriver driver, String tname) throws IOException {
+	public String captureScreen(WebDriver driver, String tname) throws IOException {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
-		File target = new File(System.getProperty("user.dir") + "/Screenshots/" + tname + ".png");
+		System.out.println(source.getName());
+		File target = new File(System.getProperty("user.dir")+"\\Screenshots\\"+tname+".png");
+		String errflpath =target.getAbsolutePath();
 		FileUtils.copyFile(source, target);
 		System.out.println("Screenshot taken");
+		System.out.println(target.getName());
 		
+		return errflpath;
+
 		
 	}
 	

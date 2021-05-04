@@ -785,3 +785,294 @@ INFO	2021-04-25 20:38:19,368	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome 
 INFO	2021-04-25 20:38:23,601	4233	pom.inetbaking.testcases.BaseClass	[main]	Chrome is closed
 INFO	2021-04-25 20:40:07,253	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
 INFO	2021-04-25 20:40:10,961	3708	pom.inetbaking.testcases.BaseClass	[main]	Chrome is closed
+INFO	2021-04-26 11:36:30,922	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 11:36:35,610	4688	pom.inetbaking.testcases.BaseClass	[main]	Chrome is closed
+INFO	2021-04-26 11:40:07,499	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 11:41:53,371	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 11:46:59,754	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 13:11:12,429	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 13:23:29,692	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 13:26:29,880	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 13:29:33,702	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 13:33:15,697	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 13:33:55,361	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 13:36:15,682	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 13:39:16,295	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 13:41:58,178	1	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 13:44:06,363	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 13:46:46,807	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 13:49:39,480	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 13:51:01,051	1	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 14:56:27,201	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 14:59:22,450	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 15:02:33,459	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 15:05:02,323	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 15:07:21,997	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 15:28:47,147	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 15:33:44,084	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 15:34:47,089	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 15:35:11,680	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 15:36:12,383	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 15:37:10,675	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 15:38:31,555	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 15:41:03,123	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 15:42:37,212	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 15:44:05,863	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 17:10:06,736	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 17:12:46,094	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 17:14:12,830	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 17:17:52,234	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 17:18:18,692	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 17:18:56,906	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 17:20:30,171	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 17:21:46,627	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 17:24:26,968	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 17:25:44,668	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 17:27:50,537	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 17:34:20,627	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 17:41:47,128	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 17:42:59,128	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 17:43:17,697	18569	pom.inetbaking.testcases.BaseClass	[main]	entered name
+INFO	2021-04-26 17:43:17,963	18835	pom.inetbaking.testcases.BaseClass	[main]	entered enmail id
+INFO	2021-04-26 17:43:18,065	18937	pom.inetbaking.testcases.BaseClass	[main]	entered comments
+INFO	2021-04-26 17:48:20,997	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 17:49:53,523	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 17:51:56,731	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 17:52:33,224	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 19:48:33,960	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 19:48:42,980	9020	pom.inetbaking.testcases.BaseClass	[main]	entered name
+INFO	2021-04-26 19:48:43,219	9259	pom.inetbaking.testcases.BaseClass	[main]	entered enmail id
+INFO	2021-04-26 19:48:43,327	9367	pom.inetbaking.testcases.BaseClass	[main]	entered comments
+INFO	2021-04-26 19:50:50,271	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-26 19:50:56,134	5863	pom.inetbaking.testcases.BaseClass	[main]	entered name
+INFO	2021-04-26 19:50:56,343	6072	pom.inetbaking.testcases.BaseClass	[main]	entered enmail id
+INFO	2021-04-26 19:50:56,464	6193	pom.inetbaking.testcases.BaseClass	[main]	entered comments
+INFO	2021-04-27 13:11:25,495	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-27 13:11:29,493	3998	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-04-27 13:11:29,660	4165	pom.inetbaking.testcases.BaseClass	[main]	Username Entered
+INFO	2021-04-27 13:11:29,775	4280	pom.inetbaking.testcases.BaseClass	[main]	Password Entered
+INFO	2021-04-27 13:11:31,642	6147	pom.inetbaking.testcases.BaseClass	[main]	Login button clicked
+INFO	2021-04-27 13:11:31,990	6495	pom.inetbaking.testcases.BaseClass	[main]	Testcase1 passed
+INFO	2021-04-27 13:16:21,916	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-27 13:16:25,390	3474	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-04-27 13:16:25,561	3645	pom.inetbaking.testcases.BaseClass	[main]	Username Entered
+INFO	2021-04-27 13:16:25,673	3757	pom.inetbaking.testcases.BaseClass	[main]	Password Entered
+INFO	2021-04-27 13:16:27,668	5752	pom.inetbaking.testcases.BaseClass	[main]	Login button clicked
+INFO	2021-04-27 13:16:28,343	6427	pom.inetbaking.testcases.BaseClass	[main]	Creating new customer
+INFO	2021-04-27 13:16:28,483	6567	pom.inetbaking.testcases.BaseClass	[main]	customer name Entered
+INFO	2021-04-27 13:16:28,551	6635	pom.inetbaking.testcases.BaseClass	[main]	customer gender selected
+INFO	2021-04-27 13:16:28,742	6826	pom.inetbaking.testcases.BaseClass	[main]	Customer DOB entered
+INFO	2021-04-27 13:16:28,870	6954	pom.inetbaking.testcases.BaseClass	[main]	customer Address Entered
+INFO	2021-04-27 13:16:28,965	7049	pom.inetbaking.testcases.BaseClass	[main]	customer city Entered
+INFO	2021-04-27 13:16:29,063	7147	pom.inetbaking.testcases.BaseClass	[main]	customer state Entered
+INFO	2021-04-27 13:16:29,149	7233	pom.inetbaking.testcases.BaseClass	[main]	customer pin Entered
+INFO	2021-04-27 13:16:29,270	7354	pom.inetbaking.testcases.BaseClass	[main]	customer mobile Entered
+INFO	2021-04-27 13:16:29,415	7499	pom.inetbaking.testcases.BaseClass	[main]	customer email Entered
+INFO	2021-04-27 13:16:29,505	7589	pom.inetbaking.testcases.BaseClass	[main]	customer password Entered
+INFO	2021-04-27 13:20:51,711	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-27 13:20:54,520	2809	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-04-27 13:20:54,681	2970	pom.inetbaking.testcases.BaseClass	[main]	Username Entered
+INFO	2021-04-27 13:20:54,802	3091	pom.inetbaking.testcases.BaseClass	[main]	Password Entered
+INFO	2021-04-27 13:20:56,931	5220	pom.inetbaking.testcases.BaseClass	[main]	Login button clicked
+INFO	2021-04-27 13:20:57,147	5436	pom.inetbaking.testcases.BaseClass	[main]	Creating new customer
+INFO	2021-04-27 13:20:57,268	5557	pom.inetbaking.testcases.BaseClass	[main]	customer name Entered
+INFO	2021-04-27 13:20:57,333	5622	pom.inetbaking.testcases.BaseClass	[main]	customer gender selected
+INFO	2021-04-27 13:20:57,538	5827	pom.inetbaking.testcases.BaseClass	[main]	Customer DOB entered
+INFO	2021-04-27 13:20:57,679	5968	pom.inetbaking.testcases.BaseClass	[main]	customer Address Entered
+INFO	2021-04-27 13:20:57,769	6058	pom.inetbaking.testcases.BaseClass	[main]	customer city Entered
+INFO	2021-04-27 13:20:57,862	6151	pom.inetbaking.testcases.BaseClass	[main]	customer state Entered
+INFO	2021-04-27 13:20:57,954	6243	pom.inetbaking.testcases.BaseClass	[main]	customer pin Entered
+INFO	2021-04-27 13:20:58,080	6369	pom.inetbaking.testcases.BaseClass	[main]	customer mobile Entered
+INFO	2021-04-27 13:20:58,223	6512	pom.inetbaking.testcases.BaseClass	[main]	customer email Entered
+INFO	2021-04-27 13:20:58,311	6600	pom.inetbaking.testcases.BaseClass	[main]	customer password Entered
+INFO	2021-04-27 13:23:25,786	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-27 13:23:27,999	2213	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-04-27 13:23:28,214	2428	pom.inetbaking.testcases.BaseClass	[main]	Username Entered
+INFO	2021-04-27 13:23:28,360	2574	pom.inetbaking.testcases.BaseClass	[main]	Password Entered
+INFO	2021-04-27 13:23:30,689	4903	pom.inetbaking.testcases.BaseClass	[main]	Login button clicked
+INFO	2021-04-27 13:23:30,897	5111	pom.inetbaking.testcases.BaseClass	[main]	Creating new customer
+INFO	2021-04-27 13:23:31,027	5241	pom.inetbaking.testcases.BaseClass	[main]	customer name Entered
+INFO	2021-04-27 13:23:31,094	5308	pom.inetbaking.testcases.BaseClass	[main]	customer gender selected
+INFO	2021-04-27 13:23:31,280	5494	pom.inetbaking.testcases.BaseClass	[main]	Customer DOB entered
+INFO	2021-04-27 13:23:31,399	5613	pom.inetbaking.testcases.BaseClass	[main]	customer Address Entered
+INFO	2021-04-27 13:23:31,495	5709	pom.inetbaking.testcases.BaseClass	[main]	customer city Entered
+INFO	2021-04-27 13:23:31,588	5802	pom.inetbaking.testcases.BaseClass	[main]	customer state Entered
+INFO	2021-04-27 13:23:31,681	5895	pom.inetbaking.testcases.BaseClass	[main]	customer pin Entered
+INFO	2021-04-27 13:23:31,796	6010	pom.inetbaking.testcases.BaseClass	[main]	customer mobile Entered
+INFO	2021-04-27 13:23:31,940	6154	pom.inetbaking.testcases.BaseClass	[main]	customer email Entered
+INFO	2021-04-27 13:23:32,027	6241	pom.inetbaking.testcases.BaseClass	[main]	customer password Entered
+INFO	2021-04-27 13:26:57,811	1	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-27 13:27:00,392	2582	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-04-27 13:27:00,519	2709	pom.inetbaking.testcases.BaseClass	[main]	Username Entered
+INFO	2021-04-27 13:27:00,614	2804	pom.inetbaking.testcases.BaseClass	[main]	Password Entered
+INFO	2021-04-27 13:27:02,538	4728	pom.inetbaking.testcases.BaseClass	[main]	Login button clicked
+INFO	2021-04-27 13:27:03,847	6037	pom.inetbaking.testcases.BaseClass	[main]	Creating new customer
+INFO	2021-04-27 13:27:04,009	6199	pom.inetbaking.testcases.BaseClass	[main]	customer name Entered
+INFO	2021-04-27 13:27:04,088	6278	pom.inetbaking.testcases.BaseClass	[main]	customer gender selected
+INFO	2021-04-27 13:27:04,264	6454	pom.inetbaking.testcases.BaseClass	[main]	Customer DOB entered
+INFO	2021-04-27 13:27:04,384	6574	pom.inetbaking.testcases.BaseClass	[main]	customer Address Entered
+INFO	2021-04-27 13:27:04,473	6663	pom.inetbaking.testcases.BaseClass	[main]	customer city Entered
+INFO	2021-04-27 13:27:04,562	6752	pom.inetbaking.testcases.BaseClass	[main]	customer state Entered
+INFO	2021-04-27 13:27:04,648	6838	pom.inetbaking.testcases.BaseClass	[main]	customer pin Entered
+INFO	2021-04-27 13:27:04,765	6955	pom.inetbaking.testcases.BaseClass	[main]	customer mobile Entered
+INFO	2021-04-27 13:27:04,906	7096	pom.inetbaking.testcases.BaseClass	[main]	customer email Entered
+INFO	2021-04-27 13:27:04,993	7183	pom.inetbaking.testcases.BaseClass	[main]	customer password Entered
+INFO	2021-04-27 13:28:47,708	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-27 13:28:50,336	2628	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-04-27 13:28:50,483	2775	pom.inetbaking.testcases.BaseClass	[main]	Username Entered
+INFO	2021-04-27 13:28:50,599	2891	pom.inetbaking.testcases.BaseClass	[main]	Password Entered
+INFO	2021-04-27 13:28:52,816	5108	pom.inetbaking.testcases.BaseClass	[main]	Login button clicked
+INFO	2021-04-27 13:28:53,032	5324	pom.inetbaking.testcases.BaseClass	[main]	Creating new customer
+INFO	2021-04-27 13:28:53,176	5468	pom.inetbaking.testcases.BaseClass	[main]	customer name Entered
+INFO	2021-04-27 13:28:53,244	5536	pom.inetbaking.testcases.BaseClass	[main]	customer gender selected
+INFO	2021-04-27 13:28:53,428	5720	pom.inetbaking.testcases.BaseClass	[main]	Customer DOB entered
+INFO	2021-04-27 13:28:53,548	5840	pom.inetbaking.testcases.BaseClass	[main]	customer Address Entered
+INFO	2021-04-27 13:28:53,645	5937	pom.inetbaking.testcases.BaseClass	[main]	customer city Entered
+INFO	2021-04-27 13:28:53,735	6027	pom.inetbaking.testcases.BaseClass	[main]	customer state Entered
+INFO	2021-04-27 13:28:53,823	6115	pom.inetbaking.testcases.BaseClass	[main]	customer pin Entered
+INFO	2021-04-27 13:28:53,940	6232	pom.inetbaking.testcases.BaseClass	[main]	customer mobile Entered
+INFO	2021-04-27 13:28:54,086	6378	pom.inetbaking.testcases.BaseClass	[main]	customer email Entered
+INFO	2021-04-27 13:28:54,171	6463	pom.inetbaking.testcases.BaseClass	[main]	customer password Entered
+INFO	2021-04-27 13:29:24,723	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-27 13:29:27,310	2587	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-04-27 13:29:27,460	2737	pom.inetbaking.testcases.BaseClass	[main]	Username Entered
+INFO	2021-04-27 13:29:27,571	2848	pom.inetbaking.testcases.BaseClass	[main]	Password Entered
+INFO	2021-04-27 13:29:28,056	3333	pom.inetbaking.testcases.BaseClass	[main]	Login button clicked
+INFO	2021-04-27 13:30:12,832	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-27 13:30:15,767	2935	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-04-27 13:30:15,910	3078	pom.inetbaking.testcases.BaseClass	[main]	Username Entered
+INFO	2021-04-27 13:30:16,018	3186	pom.inetbaking.testcases.BaseClass	[main]	Password Entered
+INFO	2021-04-27 13:30:17,938	5106	pom.inetbaking.testcases.BaseClass	[main]	Login button clicked
+INFO	2021-04-27 13:30:18,154	5322	pom.inetbaking.testcases.BaseClass	[main]	Creating new customer
+INFO	2021-04-27 13:30:18,280	5448	pom.inetbaking.testcases.BaseClass	[main]	customer name Entered
+INFO	2021-04-27 13:30:18,350	5518	pom.inetbaking.testcases.BaseClass	[main]	customer gender selected
+INFO	2021-04-27 13:30:18,541	5709	pom.inetbaking.testcases.BaseClass	[main]	Customer DOB entered
+INFO	2021-04-27 13:30:18,672	5840	pom.inetbaking.testcases.BaseClass	[main]	customer Address Entered
+INFO	2021-04-27 13:30:18,769	5937	pom.inetbaking.testcases.BaseClass	[main]	customer city Entered
+INFO	2021-04-27 13:30:18,858	6026	pom.inetbaking.testcases.BaseClass	[main]	customer state Entered
+INFO	2021-04-27 13:30:18,951	6119	pom.inetbaking.testcases.BaseClass	[main]	customer pin Entered
+INFO	2021-04-27 13:30:19,065	6233	pom.inetbaking.testcases.BaseClass	[main]	customer mobile Entered
+INFO	2021-04-27 13:30:19,213	6381	pom.inetbaking.testcases.BaseClass	[main]	customer email Entered
+INFO	2021-04-27 13:30:19,302	6470	pom.inetbaking.testcases.BaseClass	[main]	customer password Entered
+INFO	2021-04-27 13:36:10,696	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-27 13:36:14,080	3384	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-04-27 13:36:14,240	3544	pom.inetbaking.testcases.BaseClass	[main]	Username Entered
+INFO	2021-04-27 13:36:14,357	3661	pom.inetbaking.testcases.BaseClass	[main]	Password Entered
+INFO	2021-04-27 13:36:16,252	5556	pom.inetbaking.testcases.BaseClass	[main]	Login button clicked
+INFO	2021-04-27 13:36:16,485	5789	pom.inetbaking.testcases.BaseClass	[main]	Creating new customer
+INFO	2021-04-27 13:36:16,610	5914	pom.inetbaking.testcases.BaseClass	[main]	customer name Entered
+INFO	2021-04-27 13:36:16,679	5983	pom.inetbaking.testcases.BaseClass	[main]	customer gender selected
+INFO	2021-04-27 13:36:16,886	6190	pom.inetbaking.testcases.BaseClass	[main]	Customer DOB entered
+INFO	2021-04-27 13:36:17,026	6330	pom.inetbaking.testcases.BaseClass	[main]	customer Address Entered
+INFO	2021-04-27 13:36:17,135	6439	pom.inetbaking.testcases.BaseClass	[main]	customer city Entered
+INFO	2021-04-27 13:36:17,233	6537	pom.inetbaking.testcases.BaseClass	[main]	customer state Entered
+INFO	2021-04-27 13:36:17,330	6634	pom.inetbaking.testcases.BaseClass	[main]	customer pin Entered
+INFO	2021-04-27 13:36:17,449	6753	pom.inetbaking.testcases.BaseClass	[main]	customer mobile Entered
+INFO	2021-04-27 13:36:17,597	6901	pom.inetbaking.testcases.BaseClass	[main]	customer email Entered
+INFO	2021-04-27 13:36:17,688	6992	pom.inetbaking.testcases.BaseClass	[main]	customer password Entered
+INFO	2021-04-27 13:39:42,014	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-27 13:39:45,145	3131	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-04-27 13:39:45,293	3279	pom.inetbaking.testcases.BaseClass	[main]	Username Entered
+INFO	2021-04-27 13:39:45,410	3396	pom.inetbaking.testcases.BaseClass	[main]	Password Entered
+INFO	2021-04-27 13:39:47,880	5866	pom.inetbaking.testcases.BaseClass	[main]	Login button clicked
+INFO	2021-04-27 13:39:48,390	6376	pom.inetbaking.testcases.BaseClass	[main]	Creating new customer
+INFO	2021-04-27 13:40:01,609	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-27 13:40:05,000	3391	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-04-27 13:40:05,143	3534	pom.inetbaking.testcases.BaseClass	[main]	Username Entered
+INFO	2021-04-27 13:40:05,261	3652	pom.inetbaking.testcases.BaseClass	[main]	Password Entered
+INFO	2021-04-27 13:40:07,849	6240	pom.inetbaking.testcases.BaseClass	[main]	Login button clicked
+INFO	2021-04-27 13:40:08,846	7237	pom.inetbaking.testcases.BaseClass	[main]	Creating new customer
+INFO	2021-04-27 13:40:08,970	7361	pom.inetbaking.testcases.BaseClass	[main]	customer name Entered
+INFO	2021-04-27 13:40:09,040	7431	pom.inetbaking.testcases.BaseClass	[main]	customer gender selected
+INFO	2021-04-27 13:40:09,230	7621	pom.inetbaking.testcases.BaseClass	[main]	Customer DOB entered
+INFO	2021-04-27 13:40:09,357	7748	pom.inetbaking.testcases.BaseClass	[main]	customer Address Entered
+INFO	2021-04-27 13:40:09,449	7840	pom.inetbaking.testcases.BaseClass	[main]	customer city Entered
+INFO	2021-04-27 13:40:09,567	7958	pom.inetbaking.testcases.BaseClass	[main]	customer state Entered
+INFO	2021-04-27 13:40:09,684	8075	pom.inetbaking.testcases.BaseClass	[main]	customer pin Entered
+INFO	2021-04-27 13:40:09,838	8229	pom.inetbaking.testcases.BaseClass	[main]	customer mobile Entered
+INFO	2021-04-27 13:40:09,986	8377	pom.inetbaking.testcases.BaseClass	[main]	customer email Entered
+INFO	2021-04-27 13:40:10,074	8465	pom.inetbaking.testcases.BaseClass	[main]	customer password Entered
+INFO	2021-04-27 20:08:41,510	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-27 20:08:44,879	3369	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-04-27 20:08:45,077	3567	pom.inetbaking.testcases.BaseClass	[main]	Username Entered
+INFO	2021-04-27 20:08:45,211	3701	pom.inetbaking.testcases.BaseClass	[main]	Password Entered
+INFO	2021-04-27 20:08:46,609	5099	pom.inetbaking.testcases.BaseClass	[main]	Login button clicked
+INFO	2021-04-27 20:08:47,558	6048	pom.inetbaking.testcases.BaseClass	[main]	Creating new customer
+INFO	2021-04-27 20:08:47,767	6257	pom.inetbaking.testcases.BaseClass	[main]	customer name Entered
+INFO	2021-04-27 20:08:47,871	6361	pom.inetbaking.testcases.BaseClass	[main]	customer gender selected
+INFO	2021-04-27 20:08:48,153	6643	pom.inetbaking.testcases.BaseClass	[main]	Customer DOB entered
+INFO	2021-04-27 20:08:48,342	6832	pom.inetbaking.testcases.BaseClass	[main]	customer Address Entered
+INFO	2021-04-27 20:08:48,452	6942	pom.inetbaking.testcases.BaseClass	[main]	customer city Entered
+INFO	2021-04-27 20:08:48,560	7050	pom.inetbaking.testcases.BaseClass	[main]	customer state Entered
+INFO	2021-04-27 20:08:48,653	7143	pom.inetbaking.testcases.BaseClass	[main]	customer pin Entered
+INFO	2021-04-27 20:08:48,790	7280	pom.inetbaking.testcases.BaseClass	[main]	customer mobile Entered
+INFO	2021-04-27 20:08:48,994	7484	pom.inetbaking.testcases.BaseClass	[main]	customer email Entered
+INFO	2021-04-27 20:08:49,121	7611	pom.inetbaking.testcases.BaseClass	[main]	customer password Entered
+INFO	2021-04-27 20:11:37,358	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-27 20:11:40,304	2946	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-04-27 20:11:40,453	3095	pom.inetbaking.testcases.BaseClass	[main]	Username Entered
+INFO	2021-04-27 20:11:40,655	3297	pom.inetbaking.testcases.BaseClass	[main]	Password Entered
+INFO	2021-04-27 20:11:42,120	4762	pom.inetbaking.testcases.BaseClass	[main]	Login button clicked
+INFO	2021-04-27 20:11:42,353	4995	pom.inetbaking.testcases.BaseClass	[main]	Creating new customer
+INFO	2021-04-27 20:11:42,484	5126	pom.inetbaking.testcases.BaseClass	[main]	customer name Entered
+INFO	2021-04-27 20:11:42,570	5212	pom.inetbaking.testcases.BaseClass	[main]	customer gender selected
+INFO	2021-04-27 20:11:42,795	5437	pom.inetbaking.testcases.BaseClass	[main]	Customer DOB entered
+INFO	2021-04-27 20:11:42,937	5579	pom.inetbaking.testcases.BaseClass	[main]	customer Address Entered
+INFO	2021-04-27 20:11:43,051	5693	pom.inetbaking.testcases.BaseClass	[main]	customer city Entered
+INFO	2021-04-27 20:11:43,163	5805	pom.inetbaking.testcases.BaseClass	[main]	customer state Entered
+INFO	2021-04-27 20:11:43,299	5941	pom.inetbaking.testcases.BaseClass	[main]	customer pin Entered
+INFO	2021-04-27 20:11:43,462	6104	pom.inetbaking.testcases.BaseClass	[main]	customer mobile Entered
+INFO	2021-04-27 20:11:43,652	6294	pom.inetbaking.testcases.BaseClass	[main]	customer email Entered
+INFO	2021-04-27 20:11:43,744	6386	pom.inetbaking.testcases.BaseClass	[main]	customer password Entered
+INFO	2021-04-28 12:00:43,940	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-28 12:00:46,827	2887	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-04-28 12:00:46,977	3037	pom.inetbaking.testcases.BaseClass	[main]	Username Entered
+INFO	2021-04-28 12:00:47,093	3153	pom.inetbaking.testcases.BaseClass	[main]	Password Entered
+INFO	2021-04-28 12:00:49,153	5213	pom.inetbaking.testcases.BaseClass	[main]	Login button clicked
+INFO	2021-04-28 12:00:49,473	5533	pom.inetbaking.testcases.BaseClass	[main]	Testcase1 passed
+INFO	2021-04-29 11:48:04,891	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-29 11:48:08,018	3127	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-04-29 11:49:51,862	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-29 11:49:54,397	2535	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-04-29 11:52:45,731	1	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-04-29 11:52:49,387	3657	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-04-29 11:52:49,538	3808	pom.inetbaking.testcases.BaseClass	[main]	Username Entered
+INFO	2021-04-29 11:52:49,646	3916	pom.inetbaking.testcases.BaseClass	[main]	Password Entered
+INFO	2021-04-29 11:52:51,629	5899	pom.inetbaking.testcases.BaseClass	[main]	Login button clicked
+INFO	2021-04-29 11:52:51,979	6249	pom.inetbaking.testcases.BaseClass	[main]	Testcase1 passed
+INFO	2021-05-04 19:21:15,389	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-05-04 19:21:21,457	6068	pom.inetbaking.testcases.BaseClass	[main]	entered name
+INFO	2021-05-04 19:21:21,705	6316	pom.inetbaking.testcases.BaseClass	[main]	entered enmail id
+INFO	2021-05-04 19:21:21,798	6409	pom.inetbaking.testcases.BaseClass	[main]	entered comments
+INFO	2021-05-04 19:24:28,402	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-05-04 19:24:34,366	5964	pom.inetbaking.testcases.BaseClass	[main]	entered name
+INFO	2021-05-04 19:24:34,613	6211	pom.inetbaking.testcases.BaseClass	[main]	entered enmail id
+INFO	2021-05-04 19:24:34,830	6428	pom.inetbaking.testcases.BaseClass	[main]	entered comments
+INFO	2021-05-04 19:25:56,060	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-05-04 19:26:03,546	7486	pom.inetbaking.testcases.BaseClass	[main]	entered name
+INFO	2021-05-04 19:26:03,740	7680	pom.inetbaking.testcases.BaseClass	[main]	entered enmail id
+INFO	2021-05-04 19:26:04,041	7981	pom.inetbaking.testcases.BaseClass	[main]	entered comments
+INFO	2021-05-04 19:31:15,569	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-05-04 19:31:22,007	6438	pom.inetbaking.testcases.BaseClass	[main]	entered name
+INFO	2021-05-04 19:31:22,322	6753	pom.inetbaking.testcases.BaseClass	[main]	entered enmail id
+INFO	2021-05-04 19:31:22,801	7232	pom.inetbaking.testcases.BaseClass	[main]	entered comments
+INFO	2021-05-04 21:42:43,410	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-05-04 21:42:49,543	6133	pom.inetbaking.testcases.BaseClass	[main]	entered name
+INFO	2021-05-04 21:42:49,737	6327	pom.inetbaking.testcases.BaseClass	[main]	entered enmail id
+INFO	2021-05-04 21:42:49,991	6581	pom.inetbaking.testcases.BaseClass	[main]	entered comments
+INFO	2021-05-04 21:44:21,672	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-05-04 21:44:26,604	4932	pom.inetbaking.testcases.BaseClass	[main]	entered name
+INFO	2021-05-04 21:44:26,791	5119	pom.inetbaking.testcases.BaseClass	[main]	entered enmail id
+INFO	2021-05-04 21:44:27,111	5439	pom.inetbaking.testcases.BaseClass	[main]	entered comments
+INFO	2021-05-04 21:46:06,059	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-05-04 21:46:12,282	6223	pom.inetbaking.testcases.BaseClass	[main]	entered name
+INFO	2021-05-04 21:46:12,538	6479	pom.inetbaking.testcases.BaseClass	[main]	entered enmail id
+INFO	2021-05-04 21:47:56,324	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-05-04 21:48:02,895	6571	pom.inetbaking.testcases.BaseClass	[main]	entered name
+INFO	2021-05-04 21:48:03,121	6797	pom.inetbaking.testcases.BaseClass	[main]	entered enmail id
+INFO	2021-05-04 21:49:10,619	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-05-04 21:49:15,616	4997	pom.inetbaking.testcases.BaseClass	[main]	entered name
+INFO	2021-05-04 21:49:15,847	5228	pom.inetbaking.testcases.BaseClass	[main]	entered enmail id
+INFO	2021-05-04 21:51:58,555	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-05-04 21:52:04,606	6051	pom.inetbaking.testcases.BaseClass	[main]	entered name
+INFO	2021-05-04 21:52:04,841	6286	pom.inetbaking.testcases.BaseClass	[main]	entered enmail id

@@ -36,20 +36,27 @@ public class TC_UploadFile_003 extends BaseClass {
 		uploadpg.entertemail("deepajoshi111@gmail.com");
 		
 		logger.info("entered enmail id");
-		uploadpg.entercomments("test");
-		logger.info("entered comments");
+
 		  driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
-		  uploadpg.clickonupload();
+			uploadpg.clickonupload();
+			 /*
+			 * 
+			 * 
+			 * driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+			 * Runtime.getRuntime().exec("C:\\opt\\UploadFile1.exe");
+			 * captureScreen(driver,"UploadFileTEst");
+			 */
 		  
 		  
-			
-			  driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
-			  Runtime.getRuntime().exec("C:\\opt\\UploadFile1.exe");
-			  captureScreen(driver,"UploadFileTEst");
+		  
 			  driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 			  
+				uploadpg.entercomments("test");
+				//logger.info("entered comments");
+
+				  driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 			  uploadpg.clickonsubmit();
-			 
+			
 	}
 
 }

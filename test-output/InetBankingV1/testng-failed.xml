@@ -6,20 +6,12 @@
   </listeners>
   <test thread-count="5" name="BankingApp Test(failed)">
     <classes>
-      <class name="pom.inetbaking.testcases.TC_Login_001">
+      <class name="pom.inetbaking.testcases.testupload">
         <methods>
-          <include name="teardown"/>
+          <include name="testuploadtest"/>
           <include name="setup"/>
-          <include name="LoginTest001"/>
         </methods>
-      </class> <!-- pom.inetbaking.testcases.TC_Login_001 -->
-      <class name="pom.inetbaking.testcases.TC_CreateCustomer_002">
-        <methods>
-          <include name="teardown"/>
-          <include name="setup"/>
-          <include name="Custlogin"/>
-        </methods>
-      </class> <!-- pom.inetbaking.testcases.TC_CreateCustomer_002 -->
+      </class> <!-- pom.inetbaking.testcases.testupload -->
     </classes>
   </test> <!-- BankingApp Test(failed) -->
 </suite> <!-- Failed suite [InetBankingV1] -->

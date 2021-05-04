@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pom.inetbaking.testcases.TestCaseforDDT">
+      <class name="pom.inetbaking.testcases.TC_UploadFile_003">
         <methods>
-          <include name="DDT"/>
-          <include name="teardown"/>
           <include name="setup"/>
+          <include name="uploadfile"/>
         </methods>
-      </class> <!-- pom.inetbaking.testcases.TestCaseforDDT -->
+      </class> <!-- pom.inetbaking.testcases.TC_UploadFile_003 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
