@@ -13,6 +13,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 import pom.inetbaking.utilities.ReadConfig;
@@ -64,11 +65,11 @@ ReadConfig rdconfig =new ReadConfig();
 	driver.manage().window().maximize();
 	}
 	
-	/*
-	 * @AfterClass
-	 * 
-	 * public void teardown() { logger.info("Chrome is closed"); driver.close(); }
-	 */
+	
+	  @AfterClass
+	  
+	  public void teardown() { logger.info("Chrome is closed"); driver.close(); }
+	 
 	 
 	 
 	
