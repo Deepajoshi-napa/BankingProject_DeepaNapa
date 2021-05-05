@@ -31,9 +31,11 @@ public class TC_UploadFile_003 extends BaseClass {
 		WebElement iframeElement = driver.findElement(By.id("JotFormIFrame-72320244964454"));
 		driver.switchTo().frame(iframeElement);
 		
-		uploadpg.entertname("deepa");
+		uploadpg.entertname(randomestring());
 		logger.info("entered name");
-		uploadpg.entertemail("deepajoshi111@gmail.com");
+		
+		String custemail = 	String.valueOf(randomestring()+randomestring().toUpperCase()+"@gmail.com");	
+		uploadpg.entertemail(custemail);
 		
 		logger.info("entered enmail id");
 
@@ -49,13 +51,15 @@ public class TC_UploadFile_003 extends BaseClass {
 		  
 		  
 		  
-			  driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+			  driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 			  
-				uploadpg.entercomments("test");
+				uploadpg.entercomments(randomestring());
 				//logger.info("entered comments");
 
-				  driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+				  driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 			  uploadpg.clickonsubmit();
+			  
+			  logger.info("UPLOAD SUCCESSFULLY CREATED");
 			
 	}
 

@@ -14,7 +14,7 @@ import pom.inetbaking.pageobject.LoginPage;
 public class TC_CreateCustomer_002 extends BaseClass {
 
 	@Test
-	public void Custlogin() throws IOException {
+	public void Custlogin() {
 
 		CustomerPage custpg = new CustomerPage(driver);
 			logger.info("Home Page opened");
@@ -40,7 +40,7 @@ public class TC_CreateCustomer_002 extends BaseClass {
 
 		String newcust = "NewCustomer" + shortrandomestring();
 		
-		System.out.println(newcust);
+		//System.out.println(newcust);
 		custpg.keyincustUsername(newcust);
 
 			logger.info("customer name Entered");
@@ -60,7 +60,7 @@ public class TC_CreateCustomer_002 extends BaseClass {
 			logger.info("Customer DOB entered");
 			
 			String newcadd = "Customer Address\n"+ randomestring();
-			System.out.println(newcadd);
+			//System.out.println(newcadd);
 			custpg.keyincustadd(newcadd);
 
 				logger.info("customer Address Entered");
@@ -75,11 +75,11 @@ public class TC_CreateCustomer_002 extends BaseClass {
 				custpg.keyincustpin(custpin);
 				logger.info("customer pin Entered");
 				
-				System.out.println(custpin);
+			//	System.out.println(custpin);
 				String custmob = String.valueOf(randomeNum10()+randomeNum10()+randomeNum10());	
 				custpg.keyincustmob(custmob);
 				logger.info("customer mobile Entered");
-				System.out.println(custmob);
+			//	System.out.println(custmob);
 				
 				
 				String custemail = 	String.valueOf(randomestring()+randomestring().toUpperCase()+"@gmail.com");	
@@ -87,19 +87,20 @@ public class TC_CreateCustomer_002 extends BaseClass {
 				
 				custpg.keyincustemail(custemail);
 				driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-				System.out.println(custemail);
+			//	System.out.println(custemail);
 				logger.info("customer email Entered");
 				
 				custpg.keyincustpass(randomestring());
 				logger.info("customer password Entered");
 
 				custpg.createcust();
+				logger.info("CREATE CUSTOMER BUTTON CLICKED");
 				//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 				//driver.switchTo().alert().accept();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		WebElement pgheader =driver.findElement(By.xpath("//*[@id=\"customer\"]/tbody/tr[1]"));
-		System.out.println(pgheader.getText());
+		//System.out.println(pgheader.getText());
 		
 		
 		Assert.assertTrue(pgheader.getText().contains("Customer Registered Successfully!!!"), "page hearder Fails");
@@ -107,13 +108,21 @@ public class TC_CreateCustomer_002 extends BaseClass {
 		String pageurl =driver.getCurrentUrl();
 		String pageurl1 =pageurl.replace("http://demo.guru99.com/V4/manager/CustomerRegMsg.php?cid=", "a");
 		String pageurl2 =pageurl1.substring(1, 5);
-		System.out.println(pageurl2);
+		//System.out.println(pageurl2);
 		
 		WebElement custid =driver.findElement(By.xpath("//*[@id=\"customer\"]/tbody/tr[4]/td[2]"));
-		System.out.println(custid.getText());
+	//	System.out.println(custid.getText());
 		
 		Assert.assertTrue(custid.getText().contains(pageurl2), "Customer creation failed");
+		logger.info("CUSTOMER SUCCESSFULLY CREATED");
 		//Assert.assertTrue(custid.getText().contains("Customer Registered Successfully!!!"), "Test Fails");
-		captureScreen(driver,"customercrated"+custid);
+		try {
+			captureScreen(driver,"customer NO="+custid);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
 	}
 }

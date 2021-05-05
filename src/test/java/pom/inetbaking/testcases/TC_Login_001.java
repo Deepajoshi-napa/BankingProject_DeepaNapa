@@ -40,7 +40,7 @@ public class TC_Login_001 extends BaseClass{
 		//Assert.assertTrue(title.contains("Guru99 Bank Manager HomePage"), "****No Title Seen****");
 	
 		
-		logger.info("Testcase1 passed");
+		logger.info("LOGIN SUCCESSFULLY CREATED");
 	}
 
 }

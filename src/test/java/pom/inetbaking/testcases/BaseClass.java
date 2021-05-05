@@ -13,7 +13,6 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 import pom.inetbaking.utilities.ReadConfig;
@@ -65,22 +64,21 @@ ReadConfig rdconfig =new ReadConfig();
 	driver.manage().window().maximize();
 	}
 	
-	
-	  @AfterClass
-	  
-	  public void teardown() { logger.info("Chrome is closed"); driver.close(); }
+	/*
+	 * @AfterClass
+	 * 
+	 * public void teardown() { logger.info("Chrome is closed"); driver.close(); }
+	 */
 	 
 	 
 	
 	public String captureScreen(WebDriver driver, String tname) throws IOException {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
-		System.out.println(source.getName());
+		//System.out.println(source.getName());
 		File target = new File(System.getProperty("user.dir")+"\\Screenshots\\"+tname+".png");
 		String errflpath =target.getAbsolutePath();
 		FileUtils.copyFile(source, target);
-		System.out.println("Screenshot taken");
-		System.out.println(target.getName());
 		
 		return errflpath;
 
