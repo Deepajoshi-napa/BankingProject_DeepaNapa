@@ -13,7 +13,7 @@
 			<class name="pom.inetbaking.testcases.TC_Login_001" />
 			<class name="pom.inetbaking.testcases.TC_CreateCustomer_002" />
 			<class name="pom.inetbaking.testcases.TC_UploadFile_003" />
-			
+				<class name="pom.inetbaking.testcases.TestCaseforDDT" />
 		</classes>
 
 	</test>

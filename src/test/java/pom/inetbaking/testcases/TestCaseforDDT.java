@@ -12,12 +12,12 @@ import pom.inetbaking.utilities.DatasheetUtil;
 public class TestCaseforDDT extends BaseClass {
 	
 	@Test(dataProvider="LoginData")
-	public void DDT(String user,String pwd) throws Exception
+	public void DDT(String user, String pwd) throws Exception
 	{
 		
 	
 		//		//LoginPage loginpg = new LoginPage(driver);
-		System.out.println(URL);
+		//System.out.println(URL);
 		LoginPage lp=new LoginPage(driver);
 		lp.keyinUsername(user);
 		logger.info("user name provided");
@@ -43,8 +43,8 @@ public class TestCaseforDDT extends BaseClass {
 			logger.info("Login passed");
 			//lp.clickLogout();
 			Thread.sleep(3000);
-			driver.switchTo().alert().accept();//close logout alert
-			driver.switchTo().defaultContent();
+			//driver.switchTo().alert().accept();//close logout alert
+			//driver.switchTo().defaultContent();
 			
 		}
 		
@@ -71,15 +71,16 @@ public class TestCaseforDDT extends BaseClass {
 	String [][] getData() throws IOException
 	{
 		String path=System.getProperty("user.dir")+"/src/test/java/pom/inetbaking/testdata/LoginDatanew.xlsx";
-		System.out.println("Getting data from excel--->"+ path);
+		//System.out.println("Getting data from excel--->"+ path);
 		
-		System.out.println(DatasheetUtil.getCellData(path,"Sheet1",1, 0));
+		//System.out.println(DatasheetUtil.getCellData(path,"Sheet1",1, 0));
 		int rownum=DatasheetUtil.getRowCount(path, "Sheet1");
 		
-		System.out.println(rownum);
+	//	System.out.println(rownum);
 		int colcount=DatasheetUtil.getCellCount(path,"Sheet1",1);
 		
 		String logindata[][]=new String[rownum][colcount];
+	
 		
 		for(int i=1;i<=rownum;i++)
 		{
@@ -87,7 +88,6 @@ public class TestCaseforDDT extends BaseClass {
 			{
 				logindata[i-1][j]=DatasheetUtil.getCellData(path,"Sheet1", i,j);//1 0
 				
-				System.out.println(logindata[i][j]);
 			}
 				
 		}
