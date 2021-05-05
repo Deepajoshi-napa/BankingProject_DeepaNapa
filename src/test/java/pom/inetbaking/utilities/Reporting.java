@@ -63,24 +63,21 @@ public class Reporting extends TestListenerAdapter
 		logger=extent.createTest(tr.getName()); // create new entry in th report
 		logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(),ExtentColor.RED)); // send the passed information to the report with GREEN color highlighted
 		
-		String screenshotPath=System.getProperty("user.dir")+"\\Screenshots\\"+tr.getName()+".png";
-		
-		//String screenshotPath1 = ExtentReports.getScreenshot(driver, result.getName());
-		//System.out.println("Screenshot is attached to the reprot");
-		//System.out.println(screenshotPath);
-		File f = new File(screenshotPath); 
-		
-		if(f.exists())
-		{
-		try {
-			logger.fail("Screenshot is below:" + logger.addScreenCaptureFromPath(screenshotPath));
-			
-			logger.addScreenCaptureFromPath(screenshotPath);
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		}
+		/*
+		 * String screenshotPath=System.getProperty("user.dir")+
+		 * "\\Screenshots\\"+tr.getName()+".png";
+		 * 
+		 * //String screenshotPath1 = ExtentReports.getScreenshot(driver,
+		 * result.getName());
+		 * //System.out.println("Screenshot is attached to the reprot");
+		 * //System.out.println(screenshotPath); File f = new File(screenshotPath);
+		 * 
+		 * if(f.exists()) { try { logger.fail("Screenshot is below:" +
+		 * logger.addScreenCaptureFromPath(screenshotPath));
+		 * 
+		 * logger.addScreenCaptureFromPath(screenshotPath); } catch (Exception e) { //
+		 * TODO Auto-generated catch block e.printStackTrace(); } }
+		 */
 		
 	}
 	

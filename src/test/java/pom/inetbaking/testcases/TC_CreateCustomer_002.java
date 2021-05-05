@@ -95,10 +95,18 @@ public class TC_CreateCustomer_002 extends BaseClass {
 
 				custpg.createcust();
 				logger.info("CREATE CUSTOMER BUTTON CLICKED");
+				
 				//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 				//driver.switchTo().alert().accept();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
+		try {
+			captureScreen(driver,"customerNO"+randomeNum2());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			logger.info("SCREENSHOT FILE ALREADY CREATED");
+		}
 		WebElement pgheader =driver.findElement(By.xpath("//*[@id=\"customer\"]/tbody/tr[1]"));
 		//System.out.println(pgheader.getText());
 		
@@ -116,13 +124,7 @@ public class TC_CreateCustomer_002 extends BaseClass {
 		Assert.assertTrue(custid.getText().contains(pageurl2), "Customer creation failed");
 		logger.info("CUSTOMER SUCCESSFULLY CREATED");
 		//Assert.assertTrue(custid.getText().contains("Customer Registered Successfully!!!"), "Test Fails");
-		try {
-			captureScreen(driver,"customer NO="+custid);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			logger.info("SCREENSHOT FILE ALREADY CREATED");
-		}
+		
 		
 		
 	}

@@ -27,7 +27,7 @@ public class TC_Login_001 extends BaseClass{
 		
 		
 		//driver.switchTo().alert().accept();
-		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		//Localdriver.switchTo().alert().accept();
 		  
 		SoftAssert softAssertion= new SoftAssert();
@@ -35,7 +35,7 @@ public class TC_Login_001 extends BaseClass{
 		
 		String title = driver.getTitle();
 
-		captureScreen(driver,"loginTestScreenshot"+title);
+		captureScreen(driver,"loginTestScreenshot"+title+randomeNum2());
 		softAssertion.assertTrue(title.contains("Guru99 Bank Manager HomePage"),"****No Title Seen****" );
 		//Assert.assertTrue(title.contains("Guru99 Bank Manager HomePage"), "****No Title Seen****");
 	
