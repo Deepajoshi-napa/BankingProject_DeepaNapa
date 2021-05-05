@@ -6,8 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.sikuli.script.FindFailed;
-import org.sikuli.script.Screen;
 public class upldfile {
 
 
@@ -51,15 +49,4 @@ WebElement menuOption = lcdriver1.findElement(By.cssSelector("li:nth-of-type(17)
  
 }
 
-public void clickonuploadbutton() throws FindFailed 
-{
-	
-	//uploadfilelink.click();
-
-	
-	
-	  Screen s=new Screen(); s.find("C:\\deepafolder\\choose.PNG");
-	  s.click("C:\\deepafolder\\choose.PNG"); System.out.println("button clicked");
-	 
-}
 }

@@ -52,13 +52,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 		
 
 
-		
-<!-- https://mvnrepository.com/artifact/com.sikulix/sikulixapi -->
-<dependency>
-    <groupId>com.sikulix</groupId>
-    <artifactId>sikulixapi</artifactId>
-    <version>1.1.0</version>
-</dependency>
+	
 		
 	
 		

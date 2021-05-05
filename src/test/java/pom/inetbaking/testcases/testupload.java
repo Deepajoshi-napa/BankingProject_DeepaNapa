@@ -21,7 +21,7 @@ public class testupload extends BaseClass {
 				
 				driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 
-				upld.clickonuploadbutton();
+				//upld.clickonuploadbutton();
 				captureScreen(driver,"testinguploadfile");
 				driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 				
