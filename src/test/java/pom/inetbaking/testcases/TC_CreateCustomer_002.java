@@ -121,6 +121,7 @@ public class TC_CreateCustomer_002 extends BaseClass {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			logger.info("SCREENSHOT FILE ALREADY CREATED");
 		}
 		
 		

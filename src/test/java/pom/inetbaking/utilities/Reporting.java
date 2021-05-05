@@ -66,8 +66,8 @@ public class Reporting extends TestListenerAdapter
 		String screenshotPath=System.getProperty("user.dir")+"\\Screenshots\\"+tr.getName()+".png";
 		
 		//String screenshotPath1 = ExtentReports.getScreenshot(driver, result.getName());
-		System.out.println("Screenshot is attached to the reprot");
-		System.out.println(screenshotPath);
+		//System.out.println("Screenshot is attached to the reprot");
+		//System.out.println(screenshotPath);
 		File f = new File(screenshotPath); 
 		
 		if(f.exists())

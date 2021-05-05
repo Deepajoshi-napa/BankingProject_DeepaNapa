@@ -80,7 +80,7 @@ ReadConfig rdconfig =new ReadConfig();
 		File target = new File(System.getProperty("user.dir")+"\\Screenshots\\"+tname+".png");
 		String errflpath =target.getAbsolutePath();
 		FileUtils.copyFile(source, target);
-		
+		System.out.println(target.getName());
 		return errflpath;
 
 		
