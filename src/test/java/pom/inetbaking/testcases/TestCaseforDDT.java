@@ -20,11 +20,11 @@ public class TestCaseforDDT extends BaseClass {
 		//System.out.println(URL);
 		LoginPage lp=new LoginPage(driver);
 		lp.keyinUsername(user);
-		logger.info("user name provided= "+user);
+		logger.info("\nuser name provided= "+user);
 		lp.keyinpass(pwd);
 		logger.info("password provided= "+pwd);
 		lp.loginbutton();
-		logger.info("Loginbutton Clicked");
+		logger.info("\nLoginbutton Clicked");
 	
 		
 		
@@ -33,17 +33,20 @@ public class TestCaseforDDT extends BaseClass {
 		{
 			driver.switchTo().alert().accept();//close alert
 			driver.switchTo().defaultContent();
-			Assert.assertTrue(false);
-			logger.warn("Login failed");
-			captureScreen(driver,"Tetscase2Screenshot");
 			Thread.sleep(3000);
+			logger.info("\nLogin failed - Incorrect Username & Password");
+			captureScreen(driver,"DDT_Testcase");
+			
+			Assert.assertTrue(false);
+		
 		}
 		else
 		{
-			Assert.assertTrue(true);
-			logger.info("Login passed");
+		
+			logger.info("\nLogin passed");
 			//lp.clickLogout();
 			Thread.sleep(3000);
+			Assert.assertTrue(true);
 			//driver.switchTo().alert().accept();//close logout alert
 			//driver.switchTo().defaultContent();
 			

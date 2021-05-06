@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pom.inetbaking.testcases.TC_Login_001">
+      <class name="pom.inetbaking.testcases.TestCaseforDDT">
         <methods>
+          <include name="DDT" invocation-numbers="0 1 2 3"/>
           <include name="teardown"/>
           <include name="setup"/>
-          <include name="LoginTest001"/>
         </methods>
-      </class> <!-- pom.inetbaking.testcases.TC_Login_001 -->
+      </class> <!-- pom.inetbaking.testcases.TestCaseforDDT -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
