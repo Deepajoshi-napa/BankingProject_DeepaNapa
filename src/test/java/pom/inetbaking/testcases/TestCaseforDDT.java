@@ -20,9 +20,9 @@ public class TestCaseforDDT extends BaseClass {
 		//System.out.println(URL);
 		LoginPage lp=new LoginPage(driver);
 		lp.keyinUsername(user);
-		logger.info("user name provided");
+		logger.info("user name provided= "+user);
 		lp.keyinpass(pwd);
-		logger.info("password provided");
+		logger.info("password provided= "+pwd);
 		lp.loginbutton();
 		logger.info("Loginbutton Clicked");
 	
@@ -36,6 +36,7 @@ public class TestCaseforDDT extends BaseClass {
 			Assert.assertTrue(false);
 			logger.warn("Login failed");
 			captureScreen(driver,"Tetscase2Screenshot");
+			Thread.sleep(3000);
 		}
 		else
 		{
