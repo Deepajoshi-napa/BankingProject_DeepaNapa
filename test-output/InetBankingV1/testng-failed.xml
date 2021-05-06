@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="BankingApp Test(failed)">
     <classes>
-      <class name="pom.inetbaking.testcases.TC_CreateCustomer_002">
+      <class name="pom.inetbaking.testcases.TestCaseforDDT">
         <methods>
+          <include name="DDT" invocation-numbers="0 1 2 3"/>
           <include name="teardown"/>
           <include name="setup"/>
-          <include name="Custlogin"/>
         </methods>
-      </class> <!-- pom.inetbaking.testcases.TC_CreateCustomer_002 -->
+      </class> <!-- pom.inetbaking.testcases.TestCaseforDDT -->
     </classes>
   </test> <!-- BankingApp Test(failed) -->
 </suite> <!-- Failed suite [InetBankingV1] -->

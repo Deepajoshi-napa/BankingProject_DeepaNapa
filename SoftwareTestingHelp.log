@@ -2002,3 +2002,111 @@ INFO	2021-05-05 22:01:27,980	19036	pom.inetbaking.testcases.BaseClass	[main]	pas
 INFO	2021-05-05 22:01:29,560	20616	pom.inetbaking.testcases.BaseClass	[main]	Loginbutton Clicked
 INFO	2021-05-05 22:01:29,584	20640	pom.inetbaking.testcases.BaseClass	[main]	Login passed
 INFO	2021-05-05 22:01:32,601	23657	pom.inetbaking.testcases.BaseClass	[main]	Chrome is closed
+INFO	2021-05-06 09:01:01,958	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-05-06 09:01:02,628	670	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-05-06 09:01:07,716	5758	pom.inetbaking.testcases.BaseClass	[main]	Chrome is closed
+INFO	2021-05-06 09:01:24,881	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-05-06 09:01:28,584	3703	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-05-06 09:01:28,758	3877	pom.inetbaking.testcases.BaseClass	[main]	Username Entered
+INFO	2021-05-06 09:01:28,890	4009	pom.inetbaking.testcases.BaseClass	[main]	Password Entered
+INFO	2021-05-06 09:01:30,173	5292	pom.inetbaking.testcases.BaseClass	[main]	Login button clicked
+INFO	2021-05-06 09:01:30,486	5605	pom.inetbaking.testcases.BaseClass	[main]	LOGIN SUCCESSFULLY CREATED
+INFO	2021-05-06 09:01:30,490	5609	pom.inetbaking.testcases.BaseClass	[main]	Chrome is closed
+INFO	2021-05-06 09:43:24,411	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-05-06 09:43:27,119	2708	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-05-06 09:43:27,247	2836	pom.inetbaking.testcases.BaseClass	[main]	Username Entered
+INFO	2021-05-06 09:43:27,361	2950	pom.inetbaking.testcases.BaseClass	[main]	Password Entered
+INFO	2021-05-06 09:43:28,627	4216	pom.inetbaking.testcases.BaseClass	[main]	Login button clicked
+INFO	2021-05-06 09:43:28,901	4490	pom.inetbaking.testcases.BaseClass	[main]	LOGIN SUCCESSFULLY CREATED
+INFO	2021-05-06 09:43:28,929	4518	pom.inetbaking.testcases.BaseClass	[main]	Chrome is closed
+INFO	2021-05-06 09:43:31,106	6695	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-05-06 09:43:34,124	9713	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-05-06 09:43:34,237	9826	pom.inetbaking.testcases.BaseClass	[main]	Username Entered
+INFO	2021-05-06 09:43:34,338	9927	pom.inetbaking.testcases.BaseClass	[main]	Password Entered
+INFO	2021-05-06 09:43:35,716	11305	pom.inetbaking.testcases.BaseClass	[main]	Login button clicked
+INFO	2021-05-06 09:43:35,905	11494	pom.inetbaking.testcases.BaseClass	[main]	Creating new customer
+INFO	2021-05-06 09:43:36,031	11620	pom.inetbaking.testcases.BaseClass	[main]	customer name Entered
+INFO	2021-05-06 09:43:36,104	11693	pom.inetbaking.testcases.BaseClass	[main]	customer gender selected
+INFO	2021-05-06 09:43:36,379	11968	pom.inetbaking.testcases.BaseClass	[main]	Customer DOB entered
+INFO	2021-05-06 09:43:36,532	12121	pom.inetbaking.testcases.BaseClass	[main]	customer Address Entered
+INFO	2021-05-06 09:43:36,619	12208	pom.inetbaking.testcases.BaseClass	[main]	customer city Entered
+INFO	2021-05-06 09:43:36,721	12310	pom.inetbaking.testcases.BaseClass	[main]	customer state Entered
+INFO	2021-05-06 09:43:36,804	12393	pom.inetbaking.testcases.BaseClass	[main]	customer pin Entered
+INFO	2021-05-06 09:43:36,921	12510	pom.inetbaking.testcases.BaseClass	[main]	customer mobile Entered
+INFO	2021-05-06 09:43:37,069	12658	pom.inetbaking.testcases.BaseClass	[main]	customer email Entered
+INFO	2021-05-06 09:43:37,166	12755	pom.inetbaking.testcases.BaseClass	[main]	customer password Entered
+INFO	2021-05-06 09:43:38,469	14058	pom.inetbaking.testcases.BaseClass	[main]	CREATE CUSTOMER BUTTON CLICKED
+INFO	2021-05-06 09:43:38,793	14382	pom.inetbaking.testcases.BaseClass	[main]	CUSTOMER SUCCESSFULLY CREATED
+INFO	2021-05-06 09:43:38,796	14385	pom.inetbaking.testcases.BaseClass	[main]	Chrome is closed
+INFO	2021-05-06 09:43:40,902	16491	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-05-06 09:43:46,356	21945	pom.inetbaking.testcases.BaseClass	[main]	entered name
+INFO	2021-05-06 09:43:46,618	22207	pom.inetbaking.testcases.BaseClass	[main]	entered enmail id
+INFO	2021-05-06 09:43:46,982	22571	pom.inetbaking.testcases.BaseClass	[main]	UPLOAD SUCCESSFULLY CREATED
+INFO	2021-05-06 09:43:46,984	22573	pom.inetbaking.testcases.BaseClass	[main]	Chrome is closed
+INFO	2021-05-06 09:44:09,033	44622	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-05-06 09:44:12,974	48563	pom.inetbaking.testcases.BaseClass	[main]	user name provided= mngr164225
+INFO	2021-05-06 09:44:13,071	48660	pom.inetbaking.testcases.BaseClass	[main]	password provided= jahetAp1
+INFO	2021-05-06 09:44:13,564	49153	pom.inetbaking.testcases.BaseClass	[main]	Loginbutton Clicked
+INFO	2021-05-06 09:44:15,580	51169	pom.inetbaking.testcases.BaseClass	[main]	user name provided= mngr83460
+INFO	2021-05-06 09:44:15,673	51262	pom.inetbaking.testcases.BaseClass	[main]	password provided= qAbUzyj
+INFO	2021-05-06 09:44:16,141	51730	pom.inetbaking.testcases.BaseClass	[main]	Loginbutton Clicked
+INFO	2021-05-06 09:44:18,488	54077	pom.inetbaking.testcases.BaseClass	[main]	user name provided= mngr137319
+INFO	2021-05-06 09:44:18,580	54169	pom.inetbaking.testcases.BaseClass	[main]	password provided= bAdYvyb
+INFO	2021-05-06 09:44:19,041	54630	pom.inetbaking.testcases.BaseClass	[main]	Loginbutton Clicked
+INFO	2021-05-06 09:44:20,793	56382	pom.inetbaking.testcases.BaseClass	[main]	user name provided= mngr164225
+INFO	2021-05-06 09:44:20,884	56473	pom.inetbaking.testcases.BaseClass	[main]	password provided= jahetAp2
+INFO	2021-05-06 09:44:21,340	56929	pom.inetbaking.testcases.BaseClass	[main]	Loginbutton Clicked
+INFO	2021-05-06 09:44:23,155	58744	pom.inetbaking.testcases.BaseClass	[main]	user name provided= mngr321902
+INFO	2021-05-06 09:44:23,240	58829	pom.inetbaking.testcases.BaseClass	[main]	password provided= Avadata
+INFO	2021-05-06 09:44:24,562	60151	pom.inetbaking.testcases.BaseClass	[main]	Loginbutton Clicked
+INFO	2021-05-06 09:44:24,582	60171	pom.inetbaking.testcases.BaseClass	[main]	Login passed
+INFO	2021-05-06 09:44:27,585	63174	pom.inetbaking.testcases.BaseClass	[main]	Chrome is closed
+INFO	2021-05-06 09:46:18,114	0	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-05-06 09:46:20,908	2794	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-05-06 09:46:21,040	2926	pom.inetbaking.testcases.BaseClass	[main]	Username Entered
+INFO	2021-05-06 09:46:21,134	3020	pom.inetbaking.testcases.BaseClass	[main]	Password Entered
+INFO	2021-05-06 09:46:22,367	4253	pom.inetbaking.testcases.BaseClass	[main]	Login button clicked
+INFO	2021-05-06 09:46:22,646	4532	pom.inetbaking.testcases.BaseClass	[main]	LOGIN SUCCESSFULLY CREATED
+INFO	2021-05-06 09:46:22,668	4554	pom.inetbaking.testcases.BaseClass	[main]	Chrome is closed
+INFO	2021-05-06 09:46:24,761	6647	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-05-06 09:46:27,401	9287	pom.inetbaking.testcases.BaseClass	[main]	Home Page opened
+INFO	2021-05-06 09:46:27,522	9408	pom.inetbaking.testcases.BaseClass	[main]	Username Entered
+INFO	2021-05-06 09:46:27,627	9513	pom.inetbaking.testcases.BaseClass	[main]	Password Entered
+INFO	2021-05-06 09:46:29,189	11075	pom.inetbaking.testcases.BaseClass	[main]	Login button clicked
+INFO	2021-05-06 09:46:29,411	11297	pom.inetbaking.testcases.BaseClass	[main]	Creating new customer
+INFO	2021-05-06 09:46:29,531	11417	pom.inetbaking.testcases.BaseClass	[main]	customer name Entered
+INFO	2021-05-06 09:46:29,602	11488	pom.inetbaking.testcases.BaseClass	[main]	customer gender selected
+INFO	2021-05-06 09:46:29,804	11690	pom.inetbaking.testcases.BaseClass	[main]	Customer DOB entered
+INFO	2021-05-06 09:46:29,931	11817	pom.inetbaking.testcases.BaseClass	[main]	customer Address Entered
+INFO	2021-05-06 09:46:30,041	11927	pom.inetbaking.testcases.BaseClass	[main]	customer city Entered
+INFO	2021-05-06 09:46:30,136	12022	pom.inetbaking.testcases.BaseClass	[main]	customer state Entered
+INFO	2021-05-06 09:46:30,228	12114	pom.inetbaking.testcases.BaseClass	[main]	customer pin Entered
+INFO	2021-05-06 09:46:30,351	12237	pom.inetbaking.testcases.BaseClass	[main]	customer mobile Entered
+INFO	2021-05-06 09:46:30,540	12426	pom.inetbaking.testcases.BaseClass	[main]	customer email Entered
+INFO	2021-05-06 09:46:30,637	12523	pom.inetbaking.testcases.BaseClass	[main]	customer password Entered
+INFO	2021-05-06 09:46:32,320	14206	pom.inetbaking.testcases.BaseClass	[main]	CREATE CUSTOMER BUTTON CLICKED
+INFO	2021-05-06 09:46:32,677	14563	pom.inetbaking.testcases.BaseClass	[main]	CUSTOMER SUCCESSFULLY CREATED
+INFO	2021-05-06 09:46:32,679	14565	pom.inetbaking.testcases.BaseClass	[main]	Chrome is closed
+INFO	2021-05-06 09:46:34,828	16714	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-05-06 09:46:40,597	22483	pom.inetbaking.testcases.BaseClass	[main]	entered name
+INFO	2021-05-06 09:46:40,810	22696	pom.inetbaking.testcases.BaseClass	[main]	entered enmail id
+INFO	2021-05-06 09:46:41,192	23078	pom.inetbaking.testcases.BaseClass	[main]	UPLOAD SUCCESSFULLY CREATED
+INFO	2021-05-06 09:46:41,197	23083	pom.inetbaking.testcases.BaseClass	[main]	Chrome is closed
+INFO	2021-05-06 09:47:03,180	45066	pom.inetbaking.testcases.BaseClass	[main]	Chrome is opened
+INFO	2021-05-06 09:47:06,162	48048	pom.inetbaking.testcases.BaseClass	[main]	user name provided= mngr164225
+INFO	2021-05-06 09:47:06,261	48147	pom.inetbaking.testcases.BaseClass	[main]	password provided= jahetAp1
+INFO	2021-05-06 09:47:07,110	48996	pom.inetbaking.testcases.BaseClass	[main]	Loginbutton Clicked
+INFO	2021-05-06 09:47:09,317	51203	pom.inetbaking.testcases.BaseClass	[main]	user name provided= mngr83460
+INFO	2021-05-06 09:47:09,427	51313	pom.inetbaking.testcases.BaseClass	[main]	password provided= qAbUzyj
+INFO	2021-05-06 09:47:10,215	52101	pom.inetbaking.testcases.BaseClass	[main]	Loginbutton Clicked
+INFO	2021-05-06 09:47:12,598	54484	pom.inetbaking.testcases.BaseClass	[main]	user name provided= mngr137319
+INFO	2021-05-06 09:47:12,691	54577	pom.inetbaking.testcases.BaseClass	[main]	password provided= bAdYvyb
+INFO	2021-05-06 09:47:13,471	55357	pom.inetbaking.testcases.BaseClass	[main]	Loginbutton Clicked
+INFO	2021-05-06 09:47:16,026	57912	pom.inetbaking.testcases.BaseClass	[main]	user name provided= mngr164225
+INFO	2021-05-06 09:47:16,123	58009	pom.inetbaking.testcases.BaseClass	[main]	password provided= jahetAp2
+INFO	2021-05-06 09:47:16,776	58662	pom.inetbaking.testcases.BaseClass	[main]	Loginbutton Clicked
+INFO	2021-05-06 09:47:19,107	60993	pom.inetbaking.testcases.BaseClass	[main]	user name provided= mngr321902
+INFO	2021-05-06 09:47:19,201	61087	pom.inetbaking.testcases.BaseClass	[main]	password provided= Avadata
+INFO	2021-05-06 09:47:20,392	62278	pom.inetbaking.testcases.BaseClass	[main]	Loginbutton Clicked
+INFO	2021-05-06 09:47:20,408	62294	pom.inetbaking.testcases.BaseClass	[main]	Login passed
+INFO	2021-05-06 09:47:23,410	65296	pom.inetbaking.testcases.BaseClass	[main]	Chrome is closed
