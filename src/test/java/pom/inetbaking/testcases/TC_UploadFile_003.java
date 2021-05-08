@@ -1,6 +1,8 @@
 package pom.inetbaking.testcases;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -58,7 +60,8 @@ public class TC_UploadFile_003 extends BaseClass {
 
 				  driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 			  uploadpg.clickonsubmit();
-			  
+			  String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+			  captureScreen(driver,"UploadFile "+dateName);
 			  logger.info("UPLOAD SUCCESSFULLY CREATED");
 			
 	}

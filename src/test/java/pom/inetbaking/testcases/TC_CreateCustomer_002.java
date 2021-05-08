@@ -1,6 +1,8 @@
 package pom.inetbaking.testcases;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -99,9 +101,9 @@ public class TC_CreateCustomer_002 extends BaseClass {
 				//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 				//driver.switchTo().alert().accept();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
+		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		try {
-			captureScreen(driver,"customerNO"+randomeNum2());
+			captureScreen(driver,"customer "+dateName);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -1,6 +1,9 @@
 package pom.inetbaking.testcases;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import org.openqa.selenium.NoAlertPresentException;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -18,6 +21,8 @@ public class TestCaseforDDT extends BaseClass {
 	
 		//		//LoginPage loginpg = new LoginPage(driver);
 		//System.out.println(URL);
+		
+		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		LoginPage lp=new LoginPage(driver);
 		lp.keyinUsername(user);
 		logger.info("\nuser name provided= "+user);
@@ -35,7 +40,7 @@ public class TestCaseforDDT extends BaseClass {
 			driver.switchTo().defaultContent();
 			Thread.sleep(3000);
 			logger.info("\nLogin failed - Incorrect Username & Password");
-			captureScreen(driver,"DDT_Testcase");
+			captureScreen(driver,"LoginDDT_ "+user+"_&_"+pwd+"_"+dateName);
 			
 			Assert.assertTrue(false);
 		

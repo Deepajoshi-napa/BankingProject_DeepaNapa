@@ -9,7 +9,7 @@
 	<test name="BankingApp Test">
 	
 		<classes>
-		
+
 			<class name="pom.inetbaking.testcases.TC_Login_001" />
 			<class name="pom.inetbaking.testcases.TC_CreateCustomer_002" />
 			<class name="pom.inetbaking.testcases.TC_UploadFile_003" />

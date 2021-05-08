@@ -1,5 +1,7 @@
 package pom.inetbaking.testcases;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import org.testng.annotations.Test;
@@ -34,8 +36,8 @@ public class TC_Login_001 extends BaseClass{
 		//System.out.println("softAssert Method Was Started");
 		
 		String title = driver.getTitle();
-
-		captureScreen(driver,"loginTestScreenshot"+title+randomeNum2());
+		  String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+		captureScreen(driver,"loginTestScreenshot_"+dateName);
 		softAssertion.assertTrue(title.contains("Guru99 Bank Manager HomePage"),"****No Title Seen****" );
 		//Assert.assertTrue(title.contains("Guru99 Bank Manager HomePage"), "****No Title Seen****");
 	

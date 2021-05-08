@@ -6,6 +6,10 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
@@ -25,6 +29,17 @@ public class Reporting extends TestListenerAdapter
 	public ExtentSparkReporter htmlReporter;
 	public ExtentReports extent;
 	public ExtentTest logger;
+	
+	public static String capture(WebDriver driver) throws IOException 
+	{
+	File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+	File Dest = new File(("user.dir")+"\\Screenshots\\"+ System.currentTimeMillis()	+ ".png");
+	System.out.println(Dest);
+	String errflpath = Dest.getAbsolutePath();
+	FileUtils.copyFile(scrFile, Dest);
+	return errflpath;
+	}
+	
 	public void onStart(ITestContext testContext)
 	{
 
@@ -58,30 +73,17 @@ public class Reporting extends TestListenerAdapter
 		logger.log(Status.PASS,MarkupHelper.createLabel(tr.getName(),ExtentColor.GREEN)); // send the passed information to the report with GREEN color highlighted
 	}
 	
-	public void onTestFailure(ITestResult tr)
+	public void onTestFailure(ITestResult tr) 
 	{
-		logger=extent.createTest(tr.getName()); // create new entry in th report
+		logger=extent.createTest(tr.getName()); // create new entry in the report
 		logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(),ExtentColor.RED)); // send the passed information to the report with GREEN color highlighted
 		
-		
-		  String screenshotPath=System.getProperty("user.dir")+
-		  "\\Screenshots\\"+tr.getName()+".png";
-		  
-		  //String screenshotPath1 = ExtentReports.getScreenshot(driver,result.getName());
-		  //System.out.println("Screenshot is attached to the reprot");
-		  //System.out.println(screenshotPath); 
-		  File f = new File(screenshotPath);
-		  
-		  if(f.exists()) { try { logger.fail("Screenshot is below:" +
-		  logger.addScreenCaptureFromPath(screenshotPath));
-		  
-		  logger.addScreenCaptureFromPath(screenshotPath); } catch (Exception e)
-		  { //		  TODO Auto-generated catch block e.printStackTrace();
-			  } }
-		  }
-		 
-		
 	
+	
+	//logger.addScreenCaptureFromPath(capture(driver)+ "Test Failed");
+	}
+	
+
 	
 	public void onTestSkipped(ITestResult tr)
 	{
@@ -95,6 +97,7 @@ public class Reporting extends TestListenerAdapter
 		extent.flush();
 	}
 
+	
 }
 
     
